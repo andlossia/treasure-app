@@ -1,0 +1,66 @@
+name: treasure
+description: "A new Flutter Game."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 
+  qr_code_scanner: 
+  animations: 
+  loading_animation_widget: 
+  flutter_native_splash: 
+  icons_launcher:
+  google_fonts:
+  camera: 
+
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter_native_splash:
+  color: "#225550"
+  web: true
+
+icons_launcher:
+  image_path: 'assets/images/our_logo.png'
+  platforms:
+    android:
+      enable: true
+      image_path: 'assets/images/our_logo.png'
+    ios:
+      enable: true
+      image_path: 'assets/images/our_logo.png'
+    web:
+      enable: true
+      image_path: 'assets/images/our_logo.png'
+      favicon_path: 'assets/images/our_logo.png'
+    macos:
+      enable: true
+      image_path: 'assets/images/our_logo.png'
+    windows:
+      enable: true
+      image_path: 'assets/images/our_logo.png'
+    linux:
+      enable: true
+      image_path: 'assets/images/our_logo.png'
+  
+ 
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
